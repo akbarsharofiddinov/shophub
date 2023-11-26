@@ -1,0 +1,18 @@
+// My Button
+.myButton {
+  background-color: transparent;
+  border: none;
+  color: transparent;
+  border: 3px solid transparent;
+  padding: 12px 24px;
+  font-size: 15px;
+  width: 100%;
+  cursor: pointer;
+
+  transition: color 0.4s, border 0.4s;
+
+  // Hover style
+  &:hover {
+    color: $main-blue-hover;
+  }
+}

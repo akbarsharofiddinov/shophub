@@ -1,0 +1,38 @@
+// Common styles
+@import "./common/variables";
+@import "./common/resets";
+
+// Components
+@import "./components/header";
+@import "./components/banner";
+@import "./components/sectionTop";
+@import "./components/product";
+@import "./components/footer";
+@import "./components/shopFilter";
+@import "./components/cart";
+@import "./components/myForm";
+
+// UI
+@import "./components/UI/myButton";
+@import "./components/UI/myInput";
+@import "./components/UI/modal";
+
+// Sections
+@import "./sections/bestSellers";
+@import "./sections/recommendBooks";
+@import "./sections/moreBooks";
+@import "./sections/bookLaunch";
+
+// Pages
+@import "./pages/home";
+@import "./pages/shop";
+@import "./pages/about";
+@import "./pages/contact";
+@import "./pages/auth";
+
+.container {
+  max-width: 1740px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px 0;
+}

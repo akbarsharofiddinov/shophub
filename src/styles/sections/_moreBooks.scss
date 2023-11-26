@@ -1,0 +1,42 @@
+@import "../common/variables";
+
+.section-moreBooks {
+  background-color: $main-blue;
+  padding: 40px 0;
+
+  .section-top_box {
+    background-color: $main-blue;
+    color: #fff;
+    justify-content: center;
+    width: 700px;
+    margin: 0 auto;
+    
+    h1 {
+      font-size: 76px;
+      text-align: center;
+    }
+
+    &::after {
+      bottom: 115%;
+    }
+
+    &::before {
+      top: 115%;
+    }
+
+    .myButton {
+      border: 3px solid #fff;
+      color: #fff;
+      width: 200px;
+      margin-top: 40px;
+      font-size: 16px;
+
+      &:hover {
+        background-color: #fff;
+        color: $main-blue;
+      }
+    }
+
+    margin-bottom: 40px;
+  }
+}

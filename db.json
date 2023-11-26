@@ -1,0 +1,199 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "imageURL": "./src/assets/books/book-1.jpg",
+      "title": "Product Title",
+      "desc": "I'm a product detail. I'm a great place to add more information about your product such as sizing, material, care and cleaning instructions. This is also a great space to write what makes this product special and how your customers can benefit from this item.",
+      "price": 20,
+      "discount": 0,
+      "status": "bestseller"
+    },
+    {
+      "id": 2,
+      "imageURL": "./src/assets/books/book-2.jpg",
+      "title": "Product Title",
+      "desc": "I'm a product detail. I'm a great place to add more information about your product such as sizing, material, care and cleaning instructions. This is also a great space to write what makes this product special and how your customers can benefit from this item.",
+      "price": 25,
+      "discount": 0,
+      "status": "bestseller"
+    },
+    {
+      "id": 3,
+      "imageURL": "./src/assets/books/book-3.jpg",
+      "title": "Product Title",
+      "desc": "I'm a product detail. I'm a great place to add more information about your product such as sizing, material, care and cleaning instructions. This is also a great space to write what makes this product special and how your customers can benefit from this item.",
+      "price": 22,
+      "discount": 0,
+      "status": "bestseller"
+    },
+    {
+      "id": 4,
+      "imageURL": "./src/assets/books/book-4.jpg",
+      "title": "Product Title",
+      "desc": "I'm a product detail. I'm a great place to add more information about your product such as sizing, material, care and cleaning instructions. This is also a great space to write what makes this product special and how your customers can benefit from this item.",
+      "price": 25,
+      "discount": 0,
+      "status": "bestseller"
+    },
+    {
+      "id": 5,
+      "imageURL": "./src/assets/books/book-5.jpg",
+      "title": "Product Title",
+      "desc": "I'm a product detail. I'm a great place to add more information about your product such as sizing, material, care and cleaning instructions. This is also a great space to write what makes this product special and how your customers can benefit from this item.",
+      "price": 28,
+      "discount": 0,
+      "status": "bestseller"
+    },
+    {
+      "id": 6,
+      "imageURL": "./src/assets/books/book-6.jpg",
+      "title": "Product Title",
+      "desc": "I'm a product detail. I'm a great place to add more information about your product such as sizing, material, care and cleaning instructions. This is also a great space to write what makes this product special and how your customers can benefit from this item.",
+      "price": 30,
+      "discount": 0,
+      "status": "bestseller"
+    },
+    {
+      "id": 7,
+      "imageURL": "./src/assets/books/book-7.jpg",
+      "title": "Product Title",
+      "desc": "I'm a product detail. I'm a great place to add more information about your product such as sizing, material, care and cleaning instructions. This is also a great space to write what makes this product special and how your customers can benefit from this item.",
+      "price": 35,
+      "discount": 0,
+      "status": "recommended"
+    },
+    {
+      "id": 8,
+      "imageURL": "./src/assets/books/book-8.jpg",
+      "title": "Product Title",
+      "desc": "I'm a product detail. I'm a great place to add more information about your product such as sizing, material, care and cleaning instructions. This is also a great space to write what makes this product special and how your customers can benefit from this item.",
+      "price": 35,
+      "discount": 0,
+      "status": "recommended"
+    },
+    {
+      "id": 9,
+      "imageURL": "./src/assets/books/book-9.jpg",
+      "title": "Product Title",
+      "desc": "I'm a product detail. I'm a great place to add more information about your product such as sizing, material, care and cleaning instructions. This is also a great space to write what makes this product special and how your customers can benefit from this item.",
+      "price": 38,
+      "discount": 0,
+      "status": "recommended"
+    },
+    {
+      "id": 10,
+      "imageURL": "./src/assets/books/book-10.jpg",
+      "title": "Product Title",
+      "desc": "I'm a product detail. I'm a great place to add more information about your product such as sizing, material, care and cleaning instructions. This is also a great space to write what makes this product special and how your customers can benefit from this item.",
+      "price": 34,
+      "discount": 0,
+      "status": "recommended"
+    },
+    {
+      "id": 11,
+      "imageURL": "./src/assets/books/book-11.jpg",
+      "title": "Product Title",
+      "desc": "I'm a product detail. I'm a great place to add more information about your product such as sizing, material, care and cleaning instructions. This is also a great space to write what makes this product special and how your customers can benefit from this item.",
+      "price": 40,
+      "discount": 0,
+      "status": "recommended"
+    },
+    {
+      "id": 12,
+      "imageURL": "./src/assets/books/book-12.jpg",
+      "title": "Product Title",
+      "desc": "I'm a product detail. I'm a great place to add more information about your product such as sizing, material, care and cleaning instructions. This is also a great space to write what makes this product special and how your customers can benefit from this item.",
+      "price": 40,
+      "discount": 35,
+      "status": "recommended"
+    },
+    {
+      "id": 13,
+      "imageURL": "./src/assets/books/book-13.jpg",
+      "title": "Product Title",
+      "desc": "I'm a product detail. I'm a great place to add more information about your product such as sizing, material, care and cleaning instructions. This is also a great space to write what makes this product special and how your customers can benefit from this item.",
+      "price": 25,
+      "discount": 0,
+      "status": ""
+    },
+    {
+      "id": 14,
+      "imageURL": "./src/assets/books/book-14.jpg",
+      "title": "Product Title",
+      "desc": "I'm a product detail. I'm a great place to add more information about your product such as sizing, material, care and cleaning instructions. This is also a great space to write what makes this product special and how your customers can benefit from this item.",
+      "price": 30,
+      "discount": 0,
+      "status": ""
+    },
+    {
+      "id": 15,
+      "imageURL": "./src/assets/books/book-15.jpg",
+      "title": "Product Title",
+      "desc": "I'm a product detail. I'm a great place to add more information about your product such as sizing, material, care and cleaning instructions. This is also a great space to write what makes this product special and how your customers can benefit from this item.",
+      "price": 20,
+      "discount": 0,
+      "status": ""
+    },
+    {
+      "id": 16,
+      "imageURL": "./src/assets/books/book-16.jpg",
+      "title": "Product Title",
+      "desc": "I'm a product detail. I'm a great place to add more information about your product such as sizing, material, care and cleaning instructions. This is also a great space to write what makes this product special and how your customers can benefit from this item.",
+      "price": 38,
+      "discount": 0,
+      "status": ""
+    },
+    {
+      "id": 17,
+      "imageURL": "./src/assets/books/ailoBook.jpg",
+      "title": "The Land of AILO",
+      "desc": "I'm a product detail. I'm a great place to add more information about your product such as sizing, material, care and cleaning instructions. This is also a great space to write what makes this product special and how your customers can benefit from this item.",
+      "price": 0,
+      "discount": 0,
+      "status": "coming up"
+    }
+  ],
+  "users": [
+    {
+      "user": "",
+      "password": "",
+      "id": 1
+    },
+    {
+      "user": "",
+      "password": "",
+      "id": 2
+    },
+    {
+      "user": "",
+      "password": "",
+      "id": 3
+    },
+    {
+      "user": "",
+      "password": "",
+      "id": 4
+    },
+    {
+      "user": "",
+      "password": "",
+      "id": 5
+    },
+    {
+      "user": "",
+      "password": "",
+      "id": 6
+    },
+    {
+      "user": "",
+      "password": "",
+      "id": 7
+    },
+    {
+      "user": "",
+      "password": "",
+      "id": 8
+    }
+  ]
+}

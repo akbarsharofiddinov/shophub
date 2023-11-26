@@ -1,0 +1,14 @@
+@import "../common/variables";
+
+.section-recommend {
+  background-color: $main-blue;
+  
+  .section-top_box {
+    color: #fff;
+    background-color: $main-blue;
+  }
+
+  .recommended-books {
+    margin-top: 130px !important;
+  }
+}

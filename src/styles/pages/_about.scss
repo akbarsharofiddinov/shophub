@@ -1,0 +1,42 @@
+@import "../common/variables";
+@import "../common/fonts";
+
+// font-family: 'Open Sans', sans-serif;
+// font-family: 'Playfair Display', serif;
+
+.main {
+  background-color: rgba(242, 242, 242);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 854px;
+  margin-top: 100px;
+  margin-bottom: 80px;
+
+  img {
+    position: absolute;
+    top: -8%;
+    z-index: 5;
+    width: 925px;
+  }
+
+  &-inner {
+    z-index: 10;
+    background-color: #fff;
+    border: 15px solid $main-blue;
+    width: 496px;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    transform: translateX(-60%);
+
+    p {
+      line-height: 25px;
+      letter-spacing: 0.05em;
+      font-family: "Open Sans", sans-serif;
+    }
+  }
+}

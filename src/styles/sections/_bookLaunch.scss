@@ -1,0 +1,73 @@
+@import "../common/variables";
+
+.section-bookLaunch {
+  margin-bottom: 40px;
+
+  .bookLaunch-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+
+    .infoBook {
+      color: $main-blue;
+      h1 {
+        font-weight: 400;
+        margin-bottom: 40px;
+        font-size: 16px;
+
+        &.title {
+          font-size: 22px;
+        }
+      }
+
+      div {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        div {
+          display: flex;
+          flex-direction: column;
+          gap: 15px;
+
+          h2 {
+            font-weight: 400;
+            font-size: 18px;
+            margin-bottom: 15px;
+            position: relative;
+
+            &::after {
+              content: "";
+              position: absolute;
+              width: 20px;
+              border: 1px solid #676a749f;
+              top: 160%;
+              left: 0;
+            }
+          }
+
+          p {
+            font-size: 16px;
+            margin-bottom: 10px;
+          }
+        }
+      }
+
+      .myButton {
+        border: 3px solid $main-blue;
+        color: $main-blue;
+        width: 50%;
+        margin-top: 40px;
+
+        &:hover {
+          color: $main-blue-hover;
+        }
+      }
+    }
+
+    .bookImage {
+      border: 15px solid $main-blue;
+    }
+  }
+}

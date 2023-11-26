@@ -1,0 +1,27 @@
+.sideBarFilterBox {
+  width: 200px;
+
+  .filterInner {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 30px;
+
+    border-top: 2px solid #eee;
+    border-bottom: 2px solid #eee;
+    padding: 20px 0;
+
+    .titleBox {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .actionBox {
+      .minMaxValues {
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+  }
+}

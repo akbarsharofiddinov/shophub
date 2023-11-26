@@ -1,0 +1,27 @@
+@import "../common/variables";
+@import "../common/fonts";
+
+.home-banner {
+  background-repeat: no-repeat;
+  background-position: center left;
+  padding: 50px 90px;
+  font-family: "Playfair Display", serif;
+  position: relative;
+  min-height: 524px;
+
+  .inner-text {
+    position: absolute;
+
+    top: 50%;
+    transform: translateY(-50%);
+
+    p {
+      text-transform: uppercase;
+      font-size: 96px;
+      font-weight: 700;
+      color: $main-blue;
+      letter-spacing: 6px !important;
+      line-height: 110px;
+    }
+  }
+}

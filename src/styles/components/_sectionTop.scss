@@ -1,0 +1,44 @@
+@import "../common/variables";
+@import "../common/fonts";
+
+@mixin pseudo() {
+  content: "";
+  position: absolute;
+  width: 60px;
+  border: 1px solid #8893a0;
+}
+
+.section-top_box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: $main-blue;
+  margin: 60px 0;
+  // background-color: #fff;
+  position: relative;
+
+  font-family: 'Playfair Display', serif;
+
+  span {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  h1 {
+    font-size: 47px;
+    text-transform: uppercase;
+  }
+
+  &.pseudo {
+    &::after {
+      @include pseudo();
+      bottom: 150%;
+    }
+
+    &::before {
+      @include pseudo();
+      top: 150%;
+    }
+  }
+}

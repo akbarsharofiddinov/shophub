@@ -1,0 +1,63 @@
+@import "../common/variables";
+
+.section-shop {
+  .section-top_box {
+    margin: 0;
+  }
+
+  // ==============================================
+  .shop-inner {
+    display: flex;
+    min-height: 600px;
+
+    // *********************************************
+    .products {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+
+      .product {
+        color: $main-blue;
+
+        img {
+          width: 320px;
+        }
+
+        &:last-child {
+          display: none;
+        }
+
+        &:hover {
+          .myButton {
+            background-color: $main-blue;
+          }
+        }
+      }
+    }
+    // *********************************************
+
+    // ---------------------------------------------
+    .productsBox {
+      position: relative;
+      width: 100%;
+
+      .modal {
+        position: absolute;
+        top: 0;
+        left: -10%;
+        right: 0;
+        bottom: 0;
+        z-index: 60;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .modal-inner {
+          z-index: 61;
+        }
+      }
+    }
+    // ---------------------------------------------
+  }
+  // ==============================================
+}

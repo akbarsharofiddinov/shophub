@@ -1,0 +1,85 @@
+@import "../common/variables";
+
+.footer {
+  background-color: $main-blue;
+  color: #fff;
+  padding: 40px;
+  position: relative;
+
+  &-inner {
+    display: flex;
+    justify-content: center;
+    gap: 110px;
+
+    div {
+      h1 {
+        font-size: 14px;
+        font-weight: normal;
+        margin-bottom: 50px;
+        letter-spacing: 0.09em;
+      }
+
+      // List
+      ul {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        li,
+        li a {
+          color: #eee;
+          font-size: 14px;
+          letter-spacing: 0.09em;
+        }
+      }
+
+      .myButton {
+        background-color: #fff;
+        color: $main-blue;
+
+        &:hover {
+          background-color: $main-blue;
+          color: #fff;
+        }
+      }
+
+      &:last-child {
+        div {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+
+          h2 {
+            font-size: 14px;
+            font-weight: normal;
+            letter-spacing: 0.09em;
+          }
+
+          .myButton {
+            padding: 10px;
+          }
+        }
+      }
+    }
+  }
+
+  .toTop {
+    position: absolute;
+    bottom: 60px;
+    right: 400px;
+
+    font-size: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+
+    transition: background-color 0.2s, color 0.2s;
+
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.7);
+      color: $main-blue;
+    }
+  }
+}
