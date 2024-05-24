@@ -17,7 +17,7 @@ const RecommendBooks: React.FC = () => {
             psElement={true}
           />
           <div className="recommended-books">
-            <Products productData={data} />
+            <Products productData={data} loading={false} />
           </div>
         </div>
       </section>

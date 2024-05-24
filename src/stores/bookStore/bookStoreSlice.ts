@@ -7,6 +7,7 @@ interface IState {
 const initialState: IState = {
   users: [
     {
+      id: 0,
       user: "Akbar",
       password: "Akbar2004#",
     },
@@ -19,4 +20,4 @@ export const bookStoreSlice = createSlice({
   reducers: {},
 });
 
-export default bookStoreSlice.reducer
+export default bookStoreSlice.reducer;
